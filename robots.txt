@@ -1,0 +1,27 @@
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# https://tool.motoricerca.info/robots-checker.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /css/*.css$
+Allow: /css/*.css?
+Allow: *.js$
+Allow: *.js?
+# Directories
+Disallow: /css/
+Disallow: /assets/
+
+# Paths (clean URLs)
+Disallow: /css/
+Disallow: /assets/
+
+# Paths (no clean URLs)
+Disallow: /index.html/css/
+Disallow: /index.html/assets/
+Disallow: /index.html/assets/image/
+
+Sitemap: https://hawkicrce.com/sitemap.xml
+Host: https://hawkicrce.com/
