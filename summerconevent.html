@@ -1,85 +1,840 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <title>SummerCon 2023</title>
-    <link rel="stylesheet" href="./css/summercon.css" />
-    <link
-    rel="stylesheet"
-    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-  />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="./css/templatemo-scholar.css">
+    <link rel="stylesheet" href="./css/owl.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
   </head>
-  <body>
-    <div class="container">
-      <nav>
-        <img src="./assets/images/hawk-i.png" alt="" class="logo" />
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="">Schedule</a></li>
-          <li><a href="">Speaker</a></li>
-          <li><a href="">Sponsorers</a></li>
-          <li><a href="">Showdown</a></li>
-          <li><a href="">Digital Trust</a></li>
-          <li><a href="">Contact Us</a></li>
-          <li><a href="">Book Tickets</a></li>
-        </ul>
-      </nav>
-      <div class="text-box">
-        <p>HAWK - i CRCE</p>
-        <h1>SUMMERCON 2023</h1>
 
-        <div class="row">
-          <a href="">Learn More</a>
-          <a href="">Book Tickets <span>&#x27F6;</span></a>
-          <span>Security Practitioners & Professionals</span>
-        </div>
-      </div>
+<body>
 
-      <div class="social-icons">
-        <a href="https://instagram.com/hawki_crce">
-            <i class="uil uil-instagram"></i></a>
-        <a href="https://twitter.com/Hawki_Crce"
-          ><i class="uil uil-twitter"></i
-        ></a>
-        <a href="mailto:hawkicrce@gmail.com"
-          ><i class="uil uil-envelope"></i
-        ></a>
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
 
-    <section class="about" id="#about">
-      <div class="max-width">
-        <h2 class="title">About Us</h2>
-        <div class="about-content">
-          <div class="column left">
-            <img src="./assets/images/about.png" alt="">
-        </div>
-            <div class="right">
-                <div class="text">
-                    <div class="about_desc">
-                        <h6 >SUMMERCON CRCE 2023 is Fr. Conceicao Rodrigues College of
-                          Engineering's Flagship Event & in Mumbai, India by HAWK-i CRCE
-                          which provides security professionals & Enthusiasts with a place
-                          to learn the very latest in information security risks, research, and
-                          trends. Leading security researchers from around the globe
-                          present their most recent findings and vulnerabilities in a friendly,
-                          vendor-neutral environment. Attendees will learn about cutting edge research on a variety of subjects, from flaws in common
-                          consumer electronics to risks to vital global infrastructure, and
-                          everything in between.
-                        So let's start experience of "SARVOTECH" Induction Kitchen Equipments.</h6>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="summerconevent.html" class="logo">
+                        <h1>SummerCon</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Serach Start ***** -->
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
                     </div>
+                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="#services" class="active">Events</a></li>
+                      <li class="scroll-to-section"><a href="#team">Speaker</a></li>
+                      <li class="scroll-to-section"><a href="#events">Schedule</a></li>
+                      <li class="scroll-to-section"><a href="#sponsorer">Sponsorers</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                      <li class="scroll-to-section"><a href="#">Book Tickets!</a></li>
+
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
             </div>
         </div>
     </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
 
-    </section>
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item item-1">
+              <div class="header-text">
+                <span class="category">Hawk - i CRCE</span>
+                <h2>SummerCon 2023</h2>
+                <p>SUMMERCON CRCE 2023 is Fr. Conceicao Rodrigues College of
+                  Engineering's Flagship Event & in Mumbai, India by HAWK-i CRCE
+                  which provides security professionals & Enthusiasts with a place
+                  to learn the very latest in information security risks, research, and
+                  trends..</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <a href="#">Book Tickets</a>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="services section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="./assets/images/techtalk.png" alt="online degrees">
+            </div>
+            <div class="main-content">
+              <h4>TECH Talks</h4>
+              <p>SUMMERCON CRCE will be honored with the depth of research
+                and vulnerability disclosures being revealed at each of its Tech
+                Talks. </p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="./assets/images/techtalk.png" alt="short courses">
+            </div>
+            <div class="main-content">
+              <h4>DRONE / IOT Hacking:</h4>
+              <p>SUMMERCON's highly-regarded workshops offer participants
+                specialized training in the Realm of Drone/IoT Hacking.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="./assets/images/techtalk.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Job Fair</h4>
+              <p>We for the first time are attempting to bridge the gap between
+                Infosec organizations and talented resources by combining this
+                Job Fair.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </body>
-    </html>
+  <div class="section about-us" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <img src="./assets/images/team.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>About Us</h6>
+            <p>SUMMERCON CRCE 2023 is Fr. Conceicao Rodrigues College of
+              Engineering's Flagship Event & in Mumbai, India by HAWK-i CRCE
+              which provides security professionals & Enthusiasts with a place
+              to learn the very latest in information security risks, research, and
+              trends. Leading security researchers from around the globe
+              present their most recent findings and vulnerabilities in a friendly,
+              vendor-neutral environment.</p>
+            <div class="main-button">
+              <a href="#">Discover More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  
 
+  <div class="section fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="300" data-speed="1000"></h2>
+                   <p class="count-text ">Attendees</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="5" data-speed="1000"></h2>
+                  <p class="count-text ">Speakers</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="22" data-speed="1000"></h2>
+                  <p class="count-text ">Team Players</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter end">
+                  <h2 class="timer count-title count-number" data-to="100" data-speed="1000"></h2>
+                  <p class="count-text ">Volunteers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="team section" id="team">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/member-01.jpg" alt="">
+              <span class="category">Assoc Director, Threat Hunting at Deloitte</span>
+              <h4>Chetan Kawley</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/chetan-kawley-69a63518/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/deepak.jpg" alt="">
+              <span class="category">Ministry of Home Affairs, GoI</span>
+              <h4>Dr.Deepak Kumar</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/d3pak/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/pratik.jpg" alt="">
+              <span class="category">Cyber Security Analyst at Infosys</span>
+              <h4>Pratik Khalane</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/pratik-khalane/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/member-04.jpg" alt="">
+              <span class="category">The Hackers MeetUp</span>
+              <h4>Viral Parmar</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/abhishek.jpg" alt="">
+              <span class="category">Consultant at EY</span>
+              <h4>Abhishek Pandey</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/abhishekpandey1103/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/tejaswa.jpg" alt="">
+              <span class="category">Security Auditor @ConsenSys</span>
+              <h4>Tejaswa Rastogi</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/razzor/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/ayushya.jpg" alt="">
+              <span class="category">The Hackers MeetUp</span>
+              <h4>Ayushya Shah</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/touhid.jpg" alt="">
+              <span class="category"> HoF : Apple, Synology, Netgear, Oneplus | Synack</span>
+              <h4>Touhid Shaikh</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/touhidshaikh22/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/dinesh.jpg" alt="">
+              <span class="category">Cybersecurity GRC Specialist</span>
+              <h4>Dinesh O Bareja</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/dineshbareja/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/ritesh.jpg" alt="">
+              <span class="category">Board Committee Member, Cybercrime & Forensics Investigator, Certified Fraud Examiner (USA)</span>
+              <h4>Ritesh Bhatia</h4>
+              <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/v4web/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member">
+            <div class="main-content">
+              <img src="assets/images/nikhil.jpg" alt="">
+              <span class="category">Cybersecurity Expert, Digital Forensics Investigator & Tech Innovator</span>
+              <h4>Nikhil Mahadeshwar</h4>
+              <ul class="social-icons">
+                <li><a href="nikhil@cybersecuredindia.com"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
 
+  <div class="section events" id="events">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Schedule</h6>
+            <h2>Coming Soon</h2>
+          </div>
+        </div>
+        <!-- <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/principalfrcrce.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Fr.CRCE Principal  </span>
+                    <h4>Opening Note</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                 
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-02.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Chetan Kawley</span>
+                    <h4>KeyNote 1</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>30/45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/deepak.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Dr. Deepak Kumar</span>
+                    <h4>KeyNote 2</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/pratik.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Pratik Khalane</span>
+                    <h4>Bug Bounty/Pentest</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>20-30 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/images/event-03.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Viral Parmar</span>
+                    <h4>Cloud security</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>30-45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/abhishek.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Abhishek Pandey</span>
+                    <h4>DFIR</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>20 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/tejaswa.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Tejaswa Rastogi</span>
+                    <h4>Smart Contract Security</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/ayushya.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Ayushya Shah</span>
+                    <h4>Web application security</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>20 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/touhid.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Touhid Shaikh</span>
+                    <h4>Bug Bounty/Pentest Showdown</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/dinesh.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Dinesh O Bareja</span>
+                    <h4>Panelist</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/ritesh.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Ritesh Bhatia</span>
+                    <h4>Panelist</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-6">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="image">
+                  <img src="assets/events/nikhil.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <ul>
+                  <li>
+                    <span class="category">Nikhil Mahadeshwar</span>
+                    <h4>Panelist</h4>
+                  </li>
+                  <li>
+                    <span>Date:</span>
+                    <h6>8 April 2023</h6>
+                  </li>
+                  <li>
+                    <span>Duration:</span>
+                    <h6>45 Minutes</h6>
+                  </li>
+                </ul>
+                <a href="#"><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  align-self-center">
+          <div class="section-heading">
+            <h6>Contact Us</h6>
+            <p>As a team, we are 22 players + 100 Volunteers with one heartbeat who
+              take pride in being the voice and strength of a community of 1000+
+              students. We don't look for a reason to help others. We work for a cause,
+              not applause .</p>
+           
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-us-content">
+            <form id="contact-form" action="" method="post">
+              <div class="row">
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section testimonials" id="sponsorer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="owl-carousel owl-testimonials">
+            <div class="item">
+              <div class="author">
+                <img src="assets/images/zsecurity.webp" alt="">
+                <span class="category">Giveaway Sponsor</span>
+                <h4>Zsecurity</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="author">
+                <img src="assets/images/mumbaichapter.jpg" alt="">
+                <span class="category">The Hackers MeetUp Mumbai Chapter</span>
+                <h4>Community Partner's</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="author">
+                <img src="assets/images/gdsc-social-share.png" alt="">
+                <span class="category">GDSC CRCE</span>
+                <h4>Community Partner's</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">The Hackers MeetUp Mumbai Chapter</span>
+                <h4>CXO Panel Sponsor</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>Sponsorers</h6>
+            <h2>Who are they?</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2023 Hawk - i CRCE. &nbsp;&nbsp;&nbsp; <a href="http://hawkicrce.com/" rel="nofollow" target="_blank">SummerCon 2023</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/bootstrap/css/bootstrap.min.css"></script>
+  <script src="./js/isotope.min.js"></script>
+  <script src="./js/owl-carousel.js"></script>
+  <script src="./js/counter.js"></script>
+  <script src="./js/custom.js"></script>
+
+  </body>
+</html>
